@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-17T14:19:19 ACDT" name="Interview Suite" finished-at="2023-01-17T14:20:05 ACDT" duration-ms="45984">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T14:19:19 ACDT" name="Home Page Test" finished-at="2023-01-17T14:20:05 ACDT" duration-ms="45984">
+      <class name="aptara.BaseTest.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aptara.BaseTest.HomePageTest@5e21e98f]" started-at="2023-01-17T14:19:19 ACDT" name="setUp" finished-at="2023-01-17T14:19:52 ACDT" duration-ms="32248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:aptara.BaseTest.HomePageTest@5e21e98f]" started-at="2023-01-17T14:19:19 ACDT" name="setUp" finished-at="2023-01-17T14:19:51 ACDT" duration-ms="31133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnFlightButton()[pri:0, instance:aptara.BaseTest.HomePageTest@5e21e98f]" started-at="2023-01-17T14:19:51 ACDT" name="clickOnFlightButton" finished-at="2023-01-17T14:20:02 ACDT" duration-ms="11081" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "aptara.pages.HomePage.getFlightButton()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because the return value of "aptara.pages.HomePage.getFlightButton()" is null
+at aptara.pages.HomePage.clickOnFlightsButton(HomePage.java:27)
+at aptara.BaseTest.HomePageTest.clickOnFlightButton(HomePageTest.java:12)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFlightButton -->
+        <test-method signature="clickOnCarRentButton()[pri:0, instance:aptara.BaseTest.HomePageTest@5e21e98f]" started-at="2023-01-17T14:19:52 ACDT" name="clickOnCarRentButton" finished-at="2023-01-17T14:20:05 ACDT" duration-ms="13025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCarRentButton -->
+      </class> <!-- aptara.BaseTest.HomePageTest -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- Interview Suite -->
+</testng-results>
